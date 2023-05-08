@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+      /* CSS code for styling the page */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #FFBA01;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+		  text-align: center;
+		  background-color: #FFBA01;
+      }
+      form {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(255, 186, 1);
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      textarea {
+        height: 200px;
+      }
+      button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button[type="submit"]:hover {
+        background-color: #666;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+      }
+      footer a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <form method="post" action="mailto:youremail@example.com">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <footer>
+      <p>&copy; 2023 Mostafa Mo5</p>
+      <p>Find me on <a href="https://github.com/Mostafa-Mo5">GitHub</a></p>
+    </footer>
+  </body>
+</html>
